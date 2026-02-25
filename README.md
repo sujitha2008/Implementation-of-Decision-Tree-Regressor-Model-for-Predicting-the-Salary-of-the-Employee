@@ -14,14 +14,13 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 4. Predict the Salary: Use the trained model to predict the salary for a given position level.
 
 ## Program:
-
+```
 /*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by:Sujitha S 
 RegisterNumber: 25015880 
 */
 
-```
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeRegressor
@@ -45,6 +44,7 @@ plt.xlabel('Position Level')
 plt.ylabel('Salary')
 plt.legend()
 plt.show()
+
 ```
 ## Output:
 ![alt text](<exp 09.png>)
